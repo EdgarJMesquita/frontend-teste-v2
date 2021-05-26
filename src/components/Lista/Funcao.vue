@@ -22,7 +22,7 @@ export default {
             font-size: 0.875rem;
             color: #6B7280;
             
-            transform: translateY(70%);
+            transform: translateY(75%);
 
         }
     }

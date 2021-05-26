@@ -1,6 +1,8 @@
 <template>
     <td class="editar">
-        <a href="#">Editar</a>    
+        <router-link :to="{name: 'create', params:{id:chave}}">
+            <a href="#">Editar</a>    
+        </router-link>
     </td>
 </template>
 
@@ -15,9 +17,10 @@ export default {
 <style lang="scss" scoped>
     .editar {
         //width: 10%;
+        padding-right: 1rem;
         a {
             display: inline-block;
-            transform: translateY(20%) !important;
+            transform: translateY(10%) ;
         }
     }
 </style>

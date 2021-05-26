@@ -2,7 +2,9 @@
     <tfoot>
         <tr>
             <td colspan=5>
-                <button class="btn btn-primary">Novo</button>
+                <router-link to="/create">
+                    <button class="btn btn-primary">Novo</button>
+                </router-link>
             </td>
         </tr>
     </tfoot>
@@ -23,7 +25,7 @@ tfoot {
     
     td {
         height: 4.37rem;
-       
+        position: relative;
         .btn {
             position: absolute;
             top: 1rem;

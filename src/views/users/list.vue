@@ -31,18 +31,28 @@ export default {
 <style lang="scss" scoped>
     
     .table-con {
-        width: 900px;
+        width: 56rem;
         margin: 4rem auto;
         border-radius: 10px;
-        overflow: hidden;
         border: 1px solid #E5E7EB;
+        overflow: hidden;
         
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
-        
-        //padding-bottom: 0;
 
         .table {
             margin: 0;
+        }
+    }
+
+    @media(max-width:900px){
+        .table-con {
+            width: 95%;
+        }
+    }
+    
+    @media(max-width: 600px){
+        .table-con{
+            margin-top: 1rem;
         }
     }
 </style>

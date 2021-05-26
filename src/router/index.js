@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import list from '@/views/users/list.vue'
+import create from '@/views/users/create.vue'
 
 const routes = [
   {
@@ -7,6 +8,11 @@ const routes = [
     name: 'list',
     component: list
   },
+  {
+    path: '/create',
+    name: 'create',
+    component: create
+  }
   
 ]
 

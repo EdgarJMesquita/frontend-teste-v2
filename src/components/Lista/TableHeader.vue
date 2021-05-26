@@ -20,7 +20,6 @@ export default {
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
     .thead-light{
         font-family: 'Roboto', sans-serif;
-        font-weight: 500;
         font-size: .75rem;
        
         tr th {
@@ -29,7 +28,9 @@ export default {
 
             border: none;
 
+            font-weight: 500;
             text-transform: uppercase;
+
             color: #6B7280 !important;
             background: #F9FAFB !important;
 
@@ -38,11 +39,13 @@ export default {
                 //width: 25%;
                 
             }
-            &:nth-child(2) {
-                //width: 25%;
-            }
-            
+
         }
-        
+    }
+    @media(max-width:600px){
+        .thead-light {
+            display: none;
+
+        }
     }
 </style>
