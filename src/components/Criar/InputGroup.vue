@@ -190,6 +190,7 @@ export default {
 
             .statusBtn {
                 margin-top: 1.5rem;
+                cursor: pointer;
             }
         }
         .btn-con {
