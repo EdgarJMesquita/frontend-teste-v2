@@ -17,7 +17,9 @@ export default {
 <style lang="scss" scoped>
     .status {
         // width: 10%;
+       
         p {
+
             display: inline-block;
 
             font-size: 0.875rem;
@@ -50,4 +52,11 @@ export default {
 
         }
     } 
+    @media(max-width: 600px){
+        .status {
+             position: absolute;
+            right: .6rem;
+            top: 0rem;
+        }
+    }
 </style>

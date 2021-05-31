@@ -83,6 +83,7 @@ export default {
 
             tbody {
                 tr {
+                   
                     display: flex;
                     flex-direction: column;
 
@@ -99,5 +100,14 @@ export default {
                 }
             }
 
+        }
+        @media(max-width:600px){
+            tbody {
+                tr {
+                     position: relative;
+                     margin: .5rem;
+
+                }
+            }
         }
 </style>

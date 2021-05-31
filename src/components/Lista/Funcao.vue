@@ -17,6 +17,8 @@ export default {
 
 <style lang="scss" scoped>
     .funcao {
+        
+
         //width: 10%;
         p {
             font-size: 0.875rem;
@@ -24,6 +26,13 @@ export default {
             
             transform: translateY(75%);
 
+        }
+    }
+    @media(max-width:600px){
+        .funcao {
+            position: absolute;
+            bottom: 0;
+            right: 6rem;
         }
     }
 </style>
